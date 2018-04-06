@@ -1,0 +1,539 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    font-family: arial, verdana, sans-serif;
+
+}
+
+li{
+    list-style-type:none;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: none;
+}
+
+span{
+    display: block;
+}
+
+input,textarea,button{
+    outline:none;
+    border:none;
+}
+
+#container{
+    width:1440px;
+    min-height: 900px;
+    margin: 0  auto;
+}
+
+#topPanel{
+    width:100%;
+    height:32px;
+    background: #e6edf1;
+}
+
+#topPanel li{
+    margin:5px 10px;
+}
+
+#topPanel a{
+    color: #000;
+    text-decoration: none;
+    font-size:14pt;
+}
+
+#topPanel a:hover{
+    color: #666;
+}
+
+header{
+    margin:10px 7px;
+    overflow: hidden;
+    /*clear: both;*/
+}
+
+#logo{
+    display: block;
+    float: left;
+    background-image: url("../images/logo.png");
+    width:285px;
+    height:69px;
+}
+
+.contact{
+    margin-left:173px;
+    font-size:20pt;
+    color: #52758d;
+    float: left;
+}
+
+.contact span{
+    position: relative;
+    top:5px;
+    left:-13px;
+}
+
+
+.iconPhone{
+    background-image: url("../images/iconPhone.png");
+    width: 24px;
+    height:21px;
+    float: left;
+}
+
+.iconEmail{
+    background-image: url("../images/iconEmail.png");
+    width: 29px;
+    height:28px;
+    float: left;
+}
+
+.contact p:nth-child(1){
+    float: left;
+}
+
+
+.contact p:nth-child(2){
+    font-size:13pt;
+    float: left;
+    margin-left:10px;
+}
+
+#cart{
+    margin-left:30px;
+    float: left;
+}
+
+#cart p{
+    color: #2c65c2;
+    font-size: 15pt;
+}
+
+#cart button {
+    margin-top:10px;
+    padding: 6px 42px;
+    background: #52758d;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#cart button:hover{
+    background: #5275bd;
+    cursor: pointer;
+}
+
+#search{
+    margin-left:446px;
+}
+
+#search input{
+    display: block;
+    float: left;
+}
+
+#search input[type=text]{
+    width:405px;
+    height:37px;
+    border:1px solid #5275bd;
+    padding-left:10px;
+    border-radius:4px;
+}
+
+#search input[type=submit]{
+    background-image: url("../images/iconSearch.png");
+    width: 27px;
+    height:23px;
+    position: relative;
+    left: -35px;
+    top: 8px;
+    cursor: pointer;
+}
+
+#topMenu{
+    background: #52758d;
+    height:51px;
+}
+#topMenu li{
+    padding:16px 15px;
+}
+#topMenu a{
+    color: #fff;
+}
+
+#topMenu li:hover,#topMenu li.active{
+    background-color: #444b50;
+}
+
+#content{
+    margin-top:10px;
+    overflow: hidden;
+}
+
+#leftBlock{
+    float: left;
+    width: 258px;
+} 
+
+#category{
+
+}
+.block{
+    width:245px;
+    min-height: 195px;
+    border:1px solid #c9c8c8;
+    border-radius: 4px;
+    color: #fff;
+    font-size:17pt;
+    margin:10px 10px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+
+.titleBlock{
+   padding: 10px 10px 10px 20px;
+    background-color: #444b61;
+    margin: 1px;
+    border-radius: 4px 4px 0 0;
+    height: 28px;
+    border-right:1px solid #88898d;
+    border-bottom:1px solid #88898d;
+}
+
+.contentBlock{
+    color: #000;
+    font-size:11pt;
+}
+
+.contentBlock{
+    margin: 20px 0 20px 20px;
+}
+
+.contentBlock li{
+    margin:20px 0 20px 0;
+    float:none;
+}
+
+.contentBlock a{
+    color: #000;
+}
+.contentBlock a:hover{
+    color: #378eca;
+}
+
+.contentBlock form{
+    margin:20px  0 20px 0;
+}
+
+.contentBlock form input{
+    width:159px;
+    height:22px;
+    margin:3px 0;
+    border:1px solid #5275bd;
+    color: #000;
+    padding-left:10px;
+    border-radius: 4px;
+}
+
+.contentBlock form input[type=submit]{
+    background-color: #52758d;
+    border:1px solid #0074c5;
+    color: #fff;
+    width:99px;
+    padding-left:0;
+}
+
+.contentBlock form input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #5275bd;
+}
+
+#links a{
+    margin:3px 0 0 0;
+    display: block;
+}
+
+#rightBlock{
+    float: left;
+    width: 987px;
+    overflow: hidden;
+    margin-left: 93px;
+}
+
+#catalog{
+    margin: 10px 0;
+    background-color: #f3f2f2;
+    border-radius: 4px;
+    padding:20px 9px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+#catalog h3{
+    text-align: center;
+}
+ 
+#catalog .item{
+    margin: 10px 14px;
+    height: 302px;
+    width: 214px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    background-color: #fff;
+    overflow: hidden;
+    float: left;
+}
+
+#catalog .item:hover{
+    box-shadow: 0 0 6px rgba(0,0,0,0.7);
+}
+
+
+.item h4{
+    color: #333;
+    margin: 13px 0;
+    text-align: center;
+
+}
+
+.item img{
+    display: block;
+    margin: 10px auto;
+}
+
+.priceItem{
+    text-align: center;
+    font-size:14pt;
+    display: block;
+    margin: 10px 0;
+}
+
+.item button{
+    display: block;
+    margin: 0 auto;
+    width: 163px;
+    height: 37px;
+    background-color: #52758d;
+    border:1px solid #069aff;
+    border-radius: 4px;
+    color: #fff;
+    font-size:13pt;
+}
+
+.item button:hover{
+    background-color: #5275bd;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #52758d;
+    width: 100%;
+    height:114px;
+    overflow: hidden;
+}
+
+#callButton{
+    background-image: url("../images/iconCallButton.png");
+    width: 69px;
+    height: 71px;
+    display: block;
+    float: right;
+    position: relative;
+    top:29px;
+    right: 35px;
+    animation: callButton 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes  callButton{
+    to{
+        transform: rotate(0);
+    }
+
+    from{
+        transform: rotate(-360deg);
+    }
+}
+
+#callButton:hover{
+    cursor: pointer;
+}
+
+footer p{
+    color: #fff;
+    margin: 10px;
+}
+
+footer li{
+    margin: 0 10px;
+}
+
+footer li:hover{
+    cursor:pointer;
+}
+
+#icons li:nth-child(1){
+    background-image: url("../images/iconGoogle.png");
+    width: 53px;
+    height: 52px;
+}
+
+#icons li:nth-child(2){
+    background-image: url("../images/iconTwitter.png");
+    width: 54px;
+    height: 53px;
+}
+
+#icons  li:nth-child(3){
+    background-image: url("../images/iconMail.png");
+    width: 52px;
+    height: 52px;
+}
+
+#icons li:nth-child(4){
+    background-image: url("../images/iconFacebook.png");
+    width: 54px;
+    height: 53px;
+}
+
+#icons li:nth-child(5){
+    background-image: url("../images/iconRss.png");
+    width: 54px;
+    height: 53px;
+}
+
+#icons li:hover{
+    animation:socIcon .5s;
+}
+
+@keyframes socIcon {
+    to{
+        -ms-background-position-x: 0;
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+
+    from{
+        -ms-background-position-x: 54px;
+        background-position-x: 54px;
+        background-position-y: 53px;
+    }
+}
+
+#footerMenu {
+    float: right;
+    margin:20px 10px;
+}
+#footerMenu a{
+    color: #fff;
+    font-size:14pt;
+}
+
+.Bottomlayer{
+    background-color:rgba(0,0,0,.5);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    display: none;
+}
+
+#formCall{
+    background-color: #fff;
+    border:4px solid #0b56ab;
+    height: 275px;
+    width: 465px;
+    margin: 8% auto;
+    padding:0 49px;
+
+}
+
+#formCall a{
+    display: block;
+    float: right;
+    top: 8px;
+    right: -24px;
+    font-size: 20pt;
+    position: relative;
+}
+
+#formCall h4{
+    color: #000;
+    font-size:17pt;
+    margin: 30px 0;
+    text-align: center;
+    font-weight: normal;
+}
+
+#formCall input[type=text]{
+    border:1px solid #5275bd;
+    width: 436px;
+    height: 35px;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+#formCall input[type=submit]{
+    background-color: #0b56ab;
+    width: 192px;
+    height: 34px;
+    color: #fff;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+#formCall input[type=submit]:hover{
+    cursor:pointer;
+    background-color: #5275bd;
+}
+
+@media only screen and (max-width:1400px){
+    #container{
+        width:100%;
+    }
+    .contact {
+        margin-left: 50px;
+        font-size: 19pt;
+    }
+
+    #search {
+        margin-left: 321px;
+    }
+
+    #rightBlock {
+        margin-left: 66px;
+        /*margin: 0  auto;*/
+    }
+
+}
+
+@media only screen and (max-width:1327px) {
+    #rightBlock {
+        margin-left: 31px;
+    }
+}
+
+@media only screen and (max-width:1297px) {
+    #cart {
+        margin-left: 14px;
+        float: left;
+    }
+}
+
+
+
+
+
+
